@@ -1,11 +1,11 @@
 import { useCallback, useState } from 'react'
-import IntroScreen from './components/IntroScreen.jsx'
-import Room from './components/Room.jsx'
-import ConstellationScene from './components/ConstellationScene.jsx'
-import NameReveal from './components/NameReveal.jsx'
-import FinalScreen from './components/FinalScreen.jsx'
-import MusicPlayer from './components/MusicPlayer.jsx'
-import { useAudio } from './hooks/useAudio.js'
+import IntroScreen from '../components/IntroScreen.jsx'
+import Room from '../components/Room.jsx'
+import ConstellationScene from '../components/ConstellationScene.jsx'
+import NameReveal from '../components/NameReveal.jsx'
+import FinalScreen from '../components/FinalScreen.jsx'
+import MusicPlayer from '../components/MusicPlayer.jsx'
+import { useAudio } from '../hooks/useAudio.js'
 
 export default function App() {
   const [stage, setStage] = useState('intro')
